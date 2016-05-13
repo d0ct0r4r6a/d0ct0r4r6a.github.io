@@ -1,0 +1,41 @@
+.container{
+	margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+header{
+	background: #2196F3;
+	color: black;
+	border-style: groove;
+	border-width: 10px 10px 0 10px;
+	padding: 1px 5px 1px 5px;
+
+
+}
+
+.header-menu{
+    
+}
+
+.header-menu-item{
+	list-style: none;
+}
+
+main{
+	background: orange;
+	color: white;
+	border-style: groove;
+	border-width: 0 10px 0 10px;
+	padding: 1px 5px 1px 5px;
+
+}
+
+footer{
+	background: red;
+	color: white;
+	border-style: groove;
+	border-width: 10px;
+	padding: 1px 5px 1px 5px;
+	
+}
