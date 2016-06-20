@@ -1,5 +1,34 @@
 .orb{
 	width: 30px;
 	height: 30px;
+    -webkit-filter: hue-rotate(90deg); 
+    filter: hue-rotate(90deg);
+}
 
+.faq{
+	margin: 0;
+	padding: 0;
+}
+
+.faq li{
+	padding: 20px;
+	list-style: none;
+}
+
+.faq li.q{
+	background: #eee;
+	border-bottom: 1px #ddd solid;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 120%;
+	list-style: none;
+	text-align: left;
+}
+.faq li.a{
+	background: #ddd;
+	display: none;
+}
+
+.rotate i{
+	transform: rotate(90deg);
 }

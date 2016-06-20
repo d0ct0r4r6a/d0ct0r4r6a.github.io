@@ -1,15 +1,3 @@
-/**{
-	border: 1px solid;
-}*/
-@import url(http://db.onlinewebfonts.com/c/7e3a2521a50fa146815c38f289c1d1e4?family=GeogrotesqueW01-Bold);
-@font-face {font-family: "GeogrotesqueW01-Bold";
-    src: url("http://db.onlinewebfonts.com/t/7e3a2521a50fa146815c38f289c1d1e4.eot");
-    src: url("http://db.onlinewebfonts.com/t/7e3a2521a50fa146815c38f289c1d1e4.eot?#iefix") format("embedded-opentype"),
-    url("http://db.onlinewebfonts.com/t/7e3a2521a50fa146815c38f289c1d1e4.woff2") format("woff2"),
-    url("http://db.onlinewebfonts.com/t/7e3a2521a50fa146815c38f289c1d1e4.woff") format("woff"),
-    url("http://db.onlinewebfonts.com/t/7e3a2521a50fa146815c38f289c1d1e4.ttf") format("truetype"),
-    url("http://db.onlinewebfonts.com/t/7e3a2521a50fa146815c38f289c1d1e4.svg#GeogrotesqueW01-Bold") format("svg");
-}
 .header-menu a{
 	text-decoration: none;
 	color: #263238;
@@ -24,23 +12,19 @@
 
 body{
   background: #546E7A;
-  font: 1em arial, sans-serif;
+  font: 1em 'Lato', sans-serif;
 }
 
 .container{
-	border: 10px groove #0D47A1;
+	
 	box-shadow: 10px 10px 5px #263238;
 	margin: auto;
-	/*padding: 10px;*/
+	overflow: auto;
 	width: 60%;
+
 }
 
-hr{
-	padding: 0;
-	margin: 0;
-}
-
-/*Header CSS*/
+/***************Header CSS******************/
 header{
 	background: #2196F3;
 	color: black;
@@ -51,20 +35,25 @@ header{
 
 .logo{
 	background: #64B5F6;
-	border: 5px outset navy;
+	/*border: 5px outset navy;*/
+	box-shadow: 2px 2px 1px #263238;
 	color: white;
 	display: inline-block;
-	font: bold 1.5em/15px GeogrotesqueW01-Bold, serif;
+	font: bold 1.5em/15px 'Roboto Slab', serif;
 	margin: 1 0 0 0;
 	padding: 10px;
-	
+	text-decoration: none;
+}
+
+.logo a{
+	text-decoration: none;
+	color: white;
 }
 
 .header-menu{
 	display: inline-block;
 	float: right;
-	font: small-caps 1.2em/15px GeogrotesqueW01-Bold;
-	
+	font: small-caps bold 1.2em/15px 'Roboto Slab', serif;
 }
 
 .header-menu-item li{
@@ -74,15 +63,16 @@ header{
 	margin-right: 10px;
 }
 
-/*Main CSS*/
+/******************Main CSS******************/
 main{
 	background: white;
 	color: navy;
-	height: 400px;
+	display: block;
 	padding: 20px;
+	text-align: center;
 }
 
-/*Footer CSS*/
+/*****************Footer CSS*****************/
 footer{
 	background: #2196F3;
 	color: white;
@@ -94,4 +84,10 @@ footer{
 footer p{
 	margin: 0;
 	padding: 0;
+}
+
+@media(max-width: 800px){
+	.container{
+		width: 90%;
+	}
 }
