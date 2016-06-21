@@ -28,7 +28,3 @@
 	background: #ddd;
 	display: none;
 }
-
-.rotate i{
-	transform: rotate(90deg);
-}

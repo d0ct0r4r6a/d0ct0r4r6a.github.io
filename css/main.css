@@ -1,3 +1,48 @@
+body{
+  background: #546E7A;
+  font: 1em 'Lato', sans-serif;
+  overflow: scroll;
+}
+
+.container{
+	
+	box-shadow: 10px 10px 5px #263238;
+	margin: auto;
+	overflow: auto;
+	width: 75%;
+
+}
+
+/***************Header CSS******************/
+.logo{
+	background: #64B5F6;
+	box-shadow: 2px 2px 1px #263238;
+	color: white;
+	display: inline-block;
+	font: bold 1.5em/22px 'Roboto Slab', serif;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.logo a{
+	text-decoration: none;
+	color: white;
+}
+
+header{
+	background: #2196F3;
+	color: black;
+	height: 40%;
+	overflow: hidden;
+	padding: 20px;
+}
+
+.header-menu{
+	display: inline-block;
+	float: right;
+	font: small-caps bold 1.5em/30px 'Roboto Slab', serif;
+}
+
 .header-menu a{
 	text-decoration: none;
 	color: #263238;
@@ -8,52 +53,6 @@
 	background: black;
 	color: white;
 	padding: 10px;
-}
-
-body{
-  background: #546E7A;
-  font: 1em 'Lato', sans-serif;
-}
-
-.container{
-	
-	box-shadow: 10px 10px 5px #263238;
-	margin: auto;
-	overflow: auto;
-	width: 60%;
-
-}
-
-/***************Header CSS******************/
-header{
-	background: #2196F3;
-	color: black;
-	height: 40%;
-	overflow: hidden;
-	padding: 20px;
-}
-
-.logo{
-	background: #64B5F6;
-	/*border: 5px outset navy;*/
-	box-shadow: 2px 2px 1px #263238;
-	color: white;
-	display: inline-block;
-	font: bold 1.5em/15px 'Roboto Slab', serif;
-	margin: 1 0 0 0;
-	padding: 10px;
-	text-decoration: none;
-}
-
-.logo a{
-	text-decoration: none;
-	color: white;
-}
-
-.header-menu{
-	display: inline-block;
-	float: right;
-	font: small-caps bold 1.2em/15px 'Roboto Slab', serif;
 }
 
 .header-menu-item li{

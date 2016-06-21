@@ -12,8 +12,11 @@ $(document).ready(function(){
 				.siblings('li.a')
 					.slideUp();
 		//Get icon in active question
-		var icon = $(this).children('i');
+		var icon = $(this).children();
 		//Remove the 'rotate' class for icons except the active
+		//$('i').toggleClass('fa-arrow-right');
 		icon.toggleClass('fa-arrow-down');
+		$('i').not(icon).removeClass('fa-arrow-down');
+		
 	});
 });
