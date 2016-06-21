@@ -4,15 +4,31 @@
 <head>
   <meta charset="utf-8">
   <title>d0ct0r4r6a's Stash</title>
-  <link href="img/logo.png" rel="icon">
+  <link href="img/logo.png" rel="shortcut icon" type="image/png">
   <link href="css/main.css" rel="stylesheet">
-  <link href="css/element.css" rel="stylesheet" >
+  <link href="css/element.css" rel="stylesheet">
+  <link href="css/modal.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato|Roboto+Slab" rel="stylesheet">
-  <script src="js/script.js"></script>
   <script src="https://use.fontawesome.com/c67cdb60fc.js"></script>
-</head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="js/jquery.firstVisitPopup.min.js"></script>
+  </head>
 
 <body>
+<!-- Welcome message -->
+
+<div id="my-welcome-message">
+  <h2>Welcome to d0ct0r4r6a's Stash!</h2>
+  <p>This is Arga's personal website. Please give me feedback on how I could improve this</p>
+</div>
+  <script>
+  $('#my-welcome-message').firstVisitPopup({
+  cookieName : 'homepage',
+  showAgainSelector: '#show-message'
+});
+  </script>
+
+<!-- Body -->
 <div class="container">
   <header>  
     <div class="logo"><a href="./index.html">d0ct0r<br>4r6a's<br>
