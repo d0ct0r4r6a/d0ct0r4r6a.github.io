@@ -5,10 +5,10 @@ body{
 }
 
 .container{
-	
+
 	box-shadow: 10px 10px 5px #263238;
 	margin: auto;
-	overflow: auto;
+	overflow: hidden;
 	width: 75%;
 
 }
