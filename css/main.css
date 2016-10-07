@@ -75,9 +75,9 @@ main{
 footer{
 	background: #2196F3;
 	color: white;
-	height: 20px;
+	height: 30px;
 	padding: 20px;
-	text-align: center;
+	text-align: left;
 }
 
 footer p{
