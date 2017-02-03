@@ -6,9 +6,9 @@ highlighter:      rogue
 permalink:        pretty
 
 # Setup
-title:            d0ct0r<br>4r6a
+title:            d0ct0r4r6a
 tagline:          "Arga's Github page"
-description:      "Contains Arga's mutters and miscellany."
+description:      "Arga's mutters and miscellany."
 url:              https://d0ct0r4r6a.github.io
 baseurl:          /
 
