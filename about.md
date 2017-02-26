@@ -11,5 +11,5 @@ title: About
 
 ## User Interfaces I have made (or copied):
 
-- [Membership Signup Card]({{ site.baseurl }}ui/member-signup-card/)
-- [Airbnb Footer]({{ site.baseurl }}ui/airbnb-footer/)
+- [Membership Signup Card]( {{ site.baseurl }}ui/member-signup-card/)
+- [Airbnb Footer]( {{ site.baseurl }}ui/airbnb-footer/)
