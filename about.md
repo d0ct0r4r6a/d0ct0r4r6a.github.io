@@ -17,4 +17,3 @@ title: About
 ## Animation practices:
 
 - [Sliding cards using jQuery]( {{ site.baseurl}}sliding-modal-box/)
-  - The first card isn't animated cause I want to practice applying :not() CSS selector
