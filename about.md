@@ -13,3 +13,8 @@ title: About
 
 - [Membership Signup Card]( {{ site.baseurl }}ui/member-signup-card/)
 - [Airbnb Footer]( {{ site.baseurl }}ui/airbnb-footer/)
+
+## Animation practices:
+
+- [Sliding cards using jQuery]( {{ site.baseurl}}sliding-modal-box/)
+  - The first card isn't animated cause I want to practice applying :not() CSS selector
