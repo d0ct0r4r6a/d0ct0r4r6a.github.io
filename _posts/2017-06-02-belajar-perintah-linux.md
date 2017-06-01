@@ -140,7 +140,7 @@ OK. Mari kita simak tugasnya.
 
 
 <!--Image references-->
-[pwd]:{{site.baseurl}}img/20170602/pwd.PNG
+[pwd]:{{site.baseurl}}img/20170602/pwd.png
 [df]:{{site.baseurl}}img/20170602/df.PNG
 [du]:{{site.baseurl}}img/20170602/du.PNG
 [stat]:{{site.baseurl}}img/20170602/stat.PNG
