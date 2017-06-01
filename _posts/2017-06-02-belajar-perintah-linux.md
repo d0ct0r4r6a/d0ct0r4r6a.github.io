@@ -104,9 +104,9 @@ OK. Mari kita simak tugasnya.
     - -l  : jumlah baris
     - -L  : panjang dari baris terpanjang
 
-- mengenali ttg chaining operation (|, >, >>, <, <<)
+- mengenali ttg chaining operation (\|, >, >>, <, <<)
 
-  - | : pipe
+  - \| : pipe
   - \> : _redirect_ stdout
   - \>> : _redirect_ dan _append_ stdout
   - < : _redirect_ stdin
@@ -140,13 +140,13 @@ OK. Mari kita simak tugasnya.
 
 
 <!--Image references-->
-[pwd]:{{site.baseurl}}img/20170602/pwd.png
-[df]:{{site.baseurl}}img/20170602/df.png
-[du]:{{site.baseurl}}img/20170602/du.png
-[stat]:{{site.baseurl}}img/20170602/stat.png
-[chmod]:{{site.baseurl}}img/20170602/chmod.png
-[mkdir]:{{site.baseurl}}img/20170602/mkdir.png
-[file_operation]:{{site.baseurl}}img/20170602/file_operation.png
+[pwd]:{{site.baseurl}}img/20170602/pwd.PNG
+[df]:{{site.baseurl}}img/20170602/df.PNG
+[du]:{{site.baseurl}}img/20170602/du.PNG
+[stat]:{{site.baseurl}}img/20170602/stat.PNG
+[chmod]:{{site.baseurl}}img/20170602/chmod.PNG
+[mkdir]:{{site.baseurl}}img/20170602/mkdir.PNG
+[file_operation]:{{site.baseurl}}img/20170602/file_operation.PNG
 
 
 
