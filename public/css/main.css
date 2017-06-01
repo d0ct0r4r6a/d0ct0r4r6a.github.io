@@ -1,29 +1,56 @@
+/**/
+
+.share-page {
+    text-align: center;
+    background: #0e78c3;
+    color: #eee;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin: 1.5 0;
+}
+
+.share-page a {
+    font-weight: 700;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.share-page a:hover {
+    border-bottom: 1px dashed #fff;
+}
+
+
+/* Books Menu Styles */
+
 .book-row {
-  display: flex;
-  background: rgba(0,34,154,.2);
-  align-content: center;
-  justify-content: space-around;
-  padding: 1em;
-  height: 15em;
+    display: flex;
+    background: rgba(0, 34, 154, .2);
+    align-content: center;
+    justify-content: space-around;
+    padding: 1em;
+    height: 15em;
 }
 
-.book-desc{
-  background: white;
-  width: 100%;
-  padding-left: 1em;
-  border-radius: 4px;
-  font-size: .8rem;
-  text-overflow: clip;
+.book-desc {
+    background: white;
+    width: 100%;
+    padding-left: 1em;
+    border-radius: 4px;
+    font-size: .8rem;
+    text-overflow: clip;
 }
 
-.container{
-  border-radius: 4px;
+
+/* Miscellaneous */
+
+.container {
+    border-radius: 4px;
 }
 
-#pdf{
-  display: none;
+#pdf {
+    display: none;
 }
 
-#resume:hover #pdf{
-  display: inline;
+#resume:hover #pdf {
+    display: inline;
 }
